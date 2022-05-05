@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files          = 'Sources/*.swift'
 
   s.static_framework = true
-  s.dependency 'RxSwift', '~> 6.1'
-  s.dependency 'RxCocoa', '~> 6.1'
-  s.dependency 'GoogleMaps', '~> 5.2'
+  s.dependency 'RxSwift', '~> 6'
+  s.dependency 'RxCocoa', '~> 6'
+  s.dependency 'GoogleMaps', '~> 6.2'
 end
